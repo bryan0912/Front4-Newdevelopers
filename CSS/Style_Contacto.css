@@ -1,0 +1,45 @@
+:root {
+    --main-verde: #099d8d;
+    --main-verde-claro: #14d9c4;
+    --main-blanco: #ffffff;
+    --main-negro: #000000;
+    --main-gris-oscuro: #54585a;
+    --main-gris-claro: #b8b8b9;
+    --main-gris-fondo: #f1f1f1;
+
+}
+
+*{
+    font-family: 'Open Sans';
+    /* font-family: 'Rubik', sans-serif; */
+    background-color: var(--main-gris-fondo);
+}
+
+h2{
+    color: var(--main-verde);
+
+}
+
+.asterisco {
+    color: var(--main-verde-claro);
+}
+
+.header-nav{
+    grid-area: header-nav;
+}
+
+.main-nav{
+    grid-area: main-nav;
+}
+
+.footer-nav{
+    grid-area: footer-nav;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        "header-nav"
+        "main-nav"
+        "footer-nav";
+}
