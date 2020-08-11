@@ -20,12 +20,28 @@ h2{
 
 }
 
+#boton #boton-enviar {
+    position: relative;
+    float: right;
+}
+
+#boton-enviar {
+    background-color: var(--main-verde);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
 .asterisco {
     color: var(--main-verde-claro);
 }
 
 .header-nav{
     grid-area: header-nav;
+}
+
+.foto-imagen{
+    grid-area: foto-imagen;
 }
 
 .main-nav{
@@ -40,6 +56,22 @@ h2{
     display: grid;
     grid-template-areas: 
         "header-nav"
+        "foto-imagen"
         "main-nav"
         "footer-nav";
 }
+
+
+@media (min-width: 768px){
+    .grid-container{
+        /* grid-template-columns: ; */
+        grid-template-rows: 40px 100px auto 200px;
+    }
+}
+
+/* @media (min-width: 1200px){
+    .grid-container{
+        /* grid-template-columns: ; 
+        grid-template-rows: 40px 100px auto 200px;
+    }
+/* }  */
