@@ -18,17 +18,22 @@
 <body class="grid-container">
   <header class="header-nav"> soy el header</header>
 
-  <div class="foto-imagen"> <img
-      src="/Imagenes/background_cellphone_close_up_coffee_cup_desk_device_digital-1549931.jpg" alt=""></div>
+  <div class="container-fluid">
+    <img src="/Imagenes/background_cellphone_close_up_coffee_cup_desk_device_digital-1549931.jpg" class="img-fluid"
+      alt="foto">
+  </div>
 
   <main class="main-nav">
-    <div id="contacto-titulo">
-      <h2>contacto</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, maxime dolore? Quo in, ea, debitis nesciunt
-        delectus eos porro numquam reiciendis magnam quia soluta, est corporis? Fuga iure voluptate necessitatibus.</p>
-      <p>Todos los campos marcados con <span class="asterisco">*</span> son obligatorios</p>
-    </div>
-    
+
+    <div class="container-fluid">
+      <div id="contacto-titulo">
+        <h2>contacto</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, maxime dolore? Quo in, ea, debitis
+          nesciunt
+          delectus eos porro numquam reiciendis magnam quia soluta, est corporis? Fuga iure voluptate necessitatibus.
+        </p>
+        <p>Todos los campos marcados con <span class="asterisco">*</span> son obligatorios</p>
+      </div>
       <form class="formulario">
         <div class="form-group">
           <label for="exampleFormControlInput1">Nombre Completo <span class="asterisco">*</span> </label>
@@ -51,7 +56,9 @@
           <button type="button" class="btn btn" id="boton-enviar">Enviar</button>
         </div>
       </form>
+    </div>
   </main>
+
   <footer class="footer-nav"> soy el footer</footer>
 </body>
 
