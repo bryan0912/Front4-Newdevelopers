@@ -15,9 +15,9 @@
     background-color: var(--main-gris-fondo);
 }
 
-.container-fluid {
-    width: 600px;
-}
+    .container-fluid {
+        width: 600px;
+    }
 
 h2{
     color: var(--main-verde);
@@ -27,6 +27,13 @@ h2{
 #boton #boton-enviar {
     position: relative;
     float: right;
+}
+
+#imagen{
+    width: 100%;
+    min-width: 20px;
+    height: 300px;
+    margin: 10px;
 }
 
 #boton-enviar {
@@ -40,7 +47,7 @@ h2{
     color: var(--main-verde-claro);
 }
 
-.header-nav{
+/* .header-nav{
     grid-area: header-nav;
 }
 
@@ -65,17 +72,3 @@ h2{
         "footer-nav";
 }
 
-
-@media (min-width: 768px){
-    .grid-container{
-        /* grid-template-columns: ; */
-        grid-template-rows: 40px auto auto 200px;
-    }
-}
-
-/* @media (min-width: 1200px){
-    .grid-container{
-        /* grid-template-columns: ; 
-        grid-template-rows: 40px 100px auto 200px;
-    }
-/* }  */
