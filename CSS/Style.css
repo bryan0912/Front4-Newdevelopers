@@ -1,0 +1,59 @@
+#equipo {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+#equipo h3 {
+  color: #14d9c4;
+  font-size: 26px;
+}
+li {
+  list-style: none;
+}
+.containes-for-del {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #14d9c4;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.containes-for-del .fortaleza {
+  background-color: #f1f1f1;
+}
+
+.containes-for-del .debilidades {
+  background-color: #f1f1f1;
+}
+body main #quienes_somos h1 {
+  font-family: "Rubik", sans-serif;
+  color: #099d8d;
+  text-transform: uppercase;
+}
+
+body main #quienes_somos h2 {
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+body main #quienes_somos p {
+  font-family: "Open Sans", sans-serif;
+  color: #54585a;
+}
+
+body main #quienes_somos span a i {
+  font-size: 25px;
+  color: #099d8d;
+}
+
+@media (min-width: 768px) {
+  body main #quienes_somos p {
+    text-align: justify;
+  }
+}
