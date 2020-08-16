@@ -1,0 +1,202 @@
+/**
+    Estilos para las diferentes resoluciones resoluciones
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0 ;
+}
+header{
+    height: 60px;
+    background: #15A192;
+    margin-bottom: 300px;
+}
+.menu nav ul{
+    display: flex;
+    height: 45px;
+    background: #1CCCBB;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 60px;
+    align-items: center;
+}
+.menu nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.menu nav ul li a{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+    padding: 5px;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 6.8rem;
+    position: relative;
+}
+#banner #frase_banner {
+    position: absolute;
+    top: -50px;
+    background: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    opacity: .9;
+}
+#banner #img_banner img{
+    width: 100%;
+    background-size: cover;
+}
+#frase_banner p{
+    color: black;
+    padding: 15px;
+    text-align: center;
+}   
+
+.triangle{
+    font-family: 'Open Sans', sans-serif;
+}
+@media  (min-width: 500px ) and (max-width: 800px ){
+    header{
+        height: 60px;
+        background: #15A192;
+        margin-bottom: 300px;
+    }
+    .menu nav ul{
+        display: flex;
+        height: 45px;
+        background: #1CCCBB;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+        height: 60px;
+        align-items: center;
+
+    }
+    .menu nav ul li{
+        text-decoration: none;
+        list-style: none;
+    }
+    .menu nav ul li a{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        text-align: center;
+        padding: 5px;
+    }
+    #banner{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 6.5rem;
+        position: relative;
+    }
+
+}
+
+@media  (min-width: 700px ) and (max-width: 1200px ){
+    header{
+        height: 60px;
+        background: #15A192;
+        margin-bottom: 300px;
+    }
+    .menu nav ul{
+        display: flex;
+        height: 45px;
+        background: #1CCCBB;
+        justify-content: flex-end;
+        font-family: 'Open Sans', sans-serif;
+        height: 60px;
+        align-items: center;
+
+    }
+    .menu nav ul li{
+        text-decoration: none;
+        list-style: none;
+    }
+    .menu nav ul li a{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        text-align: center;
+        padding: 5px;
+    }
+    #banner{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 3.3rem;
+        position: relative;
+    }
+}
+
+@media ( min-width: 900px ){
+
+    header{
+        height: 60px;
+        background: #15A192;
+        margin-bottom: 300px;
+    }
+    .menu nav ul{
+        display: flex;
+        height: 45px;
+        background: #1CCCBB;
+        justify-content: flex-end;
+        font-family: 'Open Sans', sans-serif;
+        height: 60px;
+        align-items: center;
+        margin-right: 150px;
+    }
+    .menu nav ul li{
+        text-decoration: none;
+        list-style: none;
+    }
+    .menu nav ul li a{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        text-align: center;
+        padding: 5px;
+    }
+
+
+    #banner{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        position: relative;
+        height: 580px;
+    }
+    #banner img{
+        padding-top: 1.4%;
+        height: 580px;
+    }
+    #banner #frase_banner {
+        width: 441px;
+        position: absolute;
+        top: -77px;
+        background: white;
+        margin-left: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        margin-right: 150px;
+        opacity: .9;
+        
+    }
+    #banner #frase_banner p{
+        text-align: justify;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .menu nav ul{
+        background: #15A192;
+    }
+}

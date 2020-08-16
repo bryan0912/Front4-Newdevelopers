@@ -1,0 +1,370 @@
+/**
+    Estilos para las diferentes resoluciones resoluciones
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 614px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+    }
+    header #nombre_grupo {
+        background: #16A293;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        height: 60px;
+        align-items: center;
+    }
+    header #menu_header{
+        display: flex;
+        height: 45px;
+        background: #1CCCBB;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header #menu_header ul {
+        display: flex;
+        list-style: none;
+        height: 45px; 
+        padding: 5px;    
+    }
+    header #menu_header ul li{
+        margin-left: 8px; 
+        display: flex;
+        align-items: center;
+    }
+    header #menu_header ul li a{
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+    }
+
+    #frase_grupo p{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top:0%;
+        background: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 15px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #imagen_grupo img{
+        margin-top: 102px;
+        background-size: cover;
+        max-width: 100%;
+        height: 282px;
+        
+    }
+    #imagen_grupo p{
+        position: absolute;
+        color:red;
+    }
+
+    #grupo{
+        margin-top: 70px; 
+    }
+
+    section #descripcion_grupo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    section #descripcion_grupo h1{
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #099D8D;
+    }
+    section #descripcion_grupo p{
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #DBDBDC;
+    }
+
+    .triangle {
+        position: relative;
+        background: white;
+        height: 50vh;
+    }
+    .triangle::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 30px 30px 0 30px;
+        border-color: white transparent transparent transparent;
+        left: 50%;
+        transform: translateX(-50%) translateY(434%);
+    }
+    
+    section #Fortalezas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F1F1F1;
+        margin-top: 100px;
+    }
+
+    section #Fortalezas h1{
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        color: #099D8D;
+        margin-top: 40px;
+    }
+    section #Fortalezas p{
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #858889;
+    }
+}
+
+@media only screen and (min-device-width: 375px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header #nombre_grupo {
+        background: #16A293;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        height: 60px;
+        align-items: center;
+    }
+    header #menu_header{
+        display: flex;
+        height: 45px;
+        background: #1CCCBB;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header #menu_header ul {
+        display: flex;
+        list-style: none;
+        height: 45px; 
+        padding: 5px;    
+    }
+    header #menu_header ul li{
+        margin-left: 8px; 
+        display: flex;
+        align-items: center;
+    }
+    header #menu_header ul li a{
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+    }
+
+    #frase_grupo{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 90%;
+        background: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 15px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #imagen_grupo img{
+        background-size: cover;
+        min-width: 100%;
+        height: 282px;
+        
+    }
+    #imagen_grupo p{
+        background-size: cover;
+        max-width: 100%;
+        height: 282px;
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        color: red
+    }
+
+    #grupo{
+        margin-top: 70px; 
+    }
+
+    section #descripcion_grupo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    section #descripcion_grupo h1{
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #099D8D;
+    }
+    section #descripcion_grupo p{
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #DBDBDC;
+    }
+
+    .triangle {
+        position: relative;
+        background: white;
+        height: 50vh;
+    }
+    .triangle::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 30px 30px 0 30px;
+        border-color: white transparent transparent transparent;
+        left: 50%;
+        transform: translateX(-50%) translateY(434%);
+    }
+    
+    section #Fortalezas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F1F1F1;
+        margin-top: 100px;
+    }
+
+    section #Fortalezas h1{
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        color: #099D8D;
+        margin-top: 40px;
+    }
+    section #Fortalezas p{
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #858889;
+    }
+
+}
+
+@media (min-width: 615px ){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        height: 60px;
+        background: #16A293;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header #nombre_grupo{
+        margin-left: 45px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+    header #menu_header {
+        background: #16A293; 
+    }
+    header #menu_header ul{
+        display: flex;
+        margin-right: 45px;        
+    }
+
+}
+
+@media (min-width: 920px ){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        height: 60px;
+        background: #16A293;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header #nombre_grupo{
+        margin-left: 150px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+    header #menu_header {
+        background: #16A293; 
+    }
+    header #menu_header ul{
+        display: flex;
+        margin-right: 150px;        
+    }
+
+    #frase_grupo{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 90%;
+        background: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 15px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #imagen_grupo img{
+        background-size: cover;
+        min-width: 100%;
+        height: 582px;
+        
+    }
+    #imagen_grupo p{
+        background-size: cover;
+        max-width: 100%;
+        height: 282px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #grupo{
+        margin-top: 70px; 
+    }
+
+}
+
+
