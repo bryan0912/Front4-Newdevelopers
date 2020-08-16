@@ -5,10 +5,11 @@
 *{
     margin: 0;
     padding: 0 ;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     height: 60px;
-    background: #15A192;
+    background: #0D998A;
     margin-bottom: 300px;
 }
 .menu nav ul{
@@ -56,15 +57,67 @@ header{
     padding: 15px;
     text-align: center;
 }   
-
+.equipo{
+    color: #099D8D ;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 .triangle{
     font-family: 'Open Sans', sans-serif;
+    padding-bottom: 45px;
+    position: relative;
+    background: white;
+    height: 50vh;
+}
+.triangle::before {
+    content: '';
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 0 30px;
+    border-color:white transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%) translateY(99%);
+}
+
+footer{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.float-right ul{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+.float-right ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    text-align: right;
+}
+
+.fortalezas_denilidades{
+    background: #F1F1F1;
+    color: #099D8D ;
+    margin-bottom: 30px;
+}
+.fortalezas_denilidades h1{
+    color: #099D8D ;
+    text-transform: uppercase;
+}
+#grupo{
+    margin-bottom: 10px;
 }
 @media  (min-width: 500px ) and (max-width: 800px ){
     header{
         height: 60px;
         background: #15A192;
-        margin-bottom: 300px;
     }
     .menu nav ul{
         display: flex;
@@ -94,6 +147,16 @@ header{
         flex-direction: column;
         padding-top: 6.5rem;
         position: relative;
+    }
+    .equipo{
+        color: #099D8D ;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    .triangle{
+        font-family: 'Open Sans', sans-serif;
+        
+        padding-bottom: 45px;
     }
 
 }
@@ -132,6 +195,15 @@ header{
         flex-direction: column;
         padding-top: 3.3rem;
         position: relative;
+    }
+    .equipo{
+        color: #099D8D ;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    .triangle{
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 45px;
     }
 }
 
@@ -198,5 +270,42 @@ header{
     }
     .menu nav ul{
         background: #15A192;
+    }
+    .equipo{
+        color: #099D8D ;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    .triangle{
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 45px;
+    }
+}
+
+body main #quienes_somos h1{
+    font-family: 'Rubik', sans-serif;
+    color: #099d8d;
+    text-transform: uppercase;
+}
+
+body main #quienes_somos h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+body main #quienes_somos p {
+    font-family: 'Open Sans', sans-serif;
+    color: #54585a;
+}
+
+body main #quienes_somos span a i {
+    font-size: 25px;
+    color: #099d8d;
+}
+
+@media (min-width: 768px) {
+    body main #quienes_somos p {
+        text-align: justify;
     }
 }
