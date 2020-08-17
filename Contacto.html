@@ -1,18 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/Style.css">
-    <title>Front4_new_developers</title>
-</head>
-<body>
-    <header>
-        
-    </header>
-    <main>
+<html lang="es">
 
-    </main>
-    <footer></footer>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@300&display=swap"
+    rel="stylesheet">
+  <title>Front4_new_developers</title>
+  <link rel="stylesheet" href="CSS/Style_Contacto.css">
+  <link rel="stylesheet" href="CSS/header-home-footer.css">
+
+</head>
+
+<body>
+  
+  <header class="header_page fixed-top">
+    <div class="row">
+        <div class="col-sm-12 col-md-3 col-lg-3 text-center ">
+            <h3 class="p-1 text-white">Front4_new_developers</h3>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-9 menu">
+            <nav class="justify-content-end">
+                <ul>
+                    <li><a href="#grupo">EQUIPO</a></li>
+                    <li><a href="#quienes_somos">QUIENES SOMOS</a></li>
+                    <li><a href="Contacto.html"  target="_blank" rel="" >CONTACTO</a></li>
+                </ul>
+        </nav>
+        </div>
+    </div>
+</header>
+
+  <section class="">
+      <div class="row">
+        <article class="col-12 text-center">
+          <img class="img-fluid" id="imagen"
+            src="/Imagenes/background_cellphone_close_up_coffee_cup_desk_device_digital-1549931.jpg" alt="foto" />
+        </article>
+      </div>
+  </section>
+
+  <main class="main-nav">
+
+    <div class="container">
+      <div id="contacto-titulo">
+        <h2>contacto</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, maxime dolore? Quo in, ea, debitis
+          nesciunt
+          delectus eos porro numquam reiciendis magnam quia soluta, est corporis? Fuga iure voluptate necessitatibus.
+        </p>
+        <p>Todos los campos marcados con <span class="asterisco">*</span> son obligatorios</p>
+      </div>
+      <form class="formulario ">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Nombre Completo <span class="asterisco">*</span> </label>
+              <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo">
+            </div>
+            <div class="form-group ">
+              <label for="exampleFormControlInput1">Email <span class="asterisco">*</span> </label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@gmail.com">
+            </div>
+            <div class="form-group ">
+              <label for="exampleFormControlInput1">Telefono <span class="asterisco">*</span> </label>
+              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="telefono">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Mensaje <span class="asterisco">*</span></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                placeholder="¿Que necesitas?"></textarea>
+            </div>
+            <div id="boton " class="form-group float-right mb-5">
+              <button type="button" class="btn btn" id="boton-enviar">Enviar</button>
+            </div>
+      </form>
+    </div>
+
+  </main>
+
+  <footer >
+    <div class="container mt-10">
+        <div class="row">
+            <div class="col">
+                <p class="text-muted">Front4_new_developers</p>
+            </div>
+            <div class="col float-right">
+                <nav>
+                    <ul>
+                        <li> <a  class="text-muted " href="">equipo</a> </li>
+                        <li> <a  class="text-muted" href="">quienes somos</a> </li>
+                        <li> <a  class="text-muted" href="">contacto</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </body>
+
 </html>
